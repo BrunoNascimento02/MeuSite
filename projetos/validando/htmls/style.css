@@ -1,0 +1,261 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+:root{
+    --cor-1:blue;      /* Cor primaria*/
+}
+
+.blue{           /*Se quiser deixar algo azul*/
+    color: var(--cor-1);
+}
+
+.menu-icon{
+    position: absolute;
+    right: 2%;
+    top: 10%;
+    cursor: pointer;
+}
+
+.menu{
+    display: none;
+    background-color: rgb(255, 255, 255);
+    text-align: end;
+    height: 40px;
+    padding: 10px;
+    position: absolute;
+    right: 0;
+    width: 100%;
+}
+
+.menu>ul>li{
+    display: inline;
+    padding: 0px 40px;
+}
+
+.menu>ul>li>a{
+    text-decoration: none;
+    color:var(--cor-1);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.menu>ul>li>a:hover{
+    font-size: 1.2em;
+    transition: .3s;
+}
+
+.minha-foto{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    background-image: url(../img/Front/euquadrado.jpeg);
+    background-size: cover;
+    border-radius: 50%;
+
+    right: 15%;
+    top: 14%;
+
+    box-shadow: 10px 10px 10px rgba(24, 238, 4, 0.178);
+}
+
+.wallpaper-header{
+    background-image: url(../img/Front/12426.jpg);
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.frase-ola{
+    position: absolute;
+    top: 100px;
+    left: 20%;
+
+    font-size: 2em;
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-shadow: 1px 1px 1px rgb(92, 92, 94);
+}
+
+.frase-ola>span>h1{
+    width: 12ch;
+    white-space: nowrap;
+    border-right: 4px solid;
+    overflow: hidden;
+    animation:typing 1s steps(12),blinking 0.5s infinite step-end alternate;
+}
+.frase-ola>span>h2{
+    width: 17ch;
+    white-space: nowrap;
+    border-right: 1px solid;
+    overflow: hidden;
+    animation:typing 2s steps(12),blinking 0.5s infinite step-end alternate;
+}
+
+.frase-ola>span>h3{
+    width: 21ch;
+    white-space: nowrap;
+    border-right: 1px solid;
+    overflow: hidden;
+    animation:typing 1s steps(12),blinking .5s infinite step-end alternate;
+}
+
+
+.frase-ola-icon>a>img{
+    width: 70px;
+}
+
+.frase-ola-icon>a>img:hover{
+    width: 90px;
+    transition: .3s;
+}
+
+.separacao{
+    width: 100%;
+    height: 20px;
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.322), white);
+}
+
+main{
+    margin: auto;
+    background-image: url(../img/rm380-12.jpg);
+    background-size: cover;
+}
+
+.sessao1{           /* INICIO DE QUALQUER ARTIGO E CONTEUDO*/
+    height: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+.sessao1 >.artigo1{
+    display: inline-block;
+    height: 400px;
+    background-color: white;
+    width: 500px;
+    border-radius: 20px 80px;
+    box-shadow: 5px 5px 1px rgba(218, 213, 213, 0.884);
+    overflow: hidden;
+}
+.artigo1>.artigo-titulo1{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100%;
+    height: 70px;
+}
+
+.artigo-titulo1>h1{
+    padding: 10px 0px;
+}
+
+.artigo-titulo1>h1>a{
+    text-decoration: none;
+    color: var(--cor-1);
+}
+.artigo1>.artigo-conteudo1{
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    border-radius: 20px;
+}
+
+.artigo-conteudo1:hover{
+    width: 600px;
+    overflow: hidden;
+    transition: .7s;
+}
+
+.sessao1 >.artigo2{
+    display: inline-block;
+    height: 400px;
+    background-color: white;
+    width: 500px;
+    border-radius: 20px 80px;
+    box-shadow: 5px 5px 1px rgba(218, 213, 213, 0.884);
+    overflow: hidden;
+}
+.artigo2>.artigo-titulo2{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100%;
+    height: 70px;
+}
+
+.artigo-titulo2>h1{
+    padding: 10px 0px;
+}
+
+.artigo-titulo2>h1>a{
+    text-decoration: none;
+    color: var(--cor-1);
+}
+.artigo2>.artigo-conteudo2{
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    border-radius: 20px;
+}
+
+.artigo-conteudo2:hover{
+    width: 600px;
+    overflow: hidden;
+    transition: .7s;
+}
+
+.sessao1 >.artigo3{
+    display: inline-block;
+    height: 400px;
+    background-color: white;
+    width: 500px;
+    border-radius: 20px 80px;
+    box-shadow: 5px 5px 1px rgba(218, 213, 213, 0.884);
+    overflow: hidden;
+}
+.artigo3>.artigo-titulo3{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100%;
+    height: 70px;
+}
+
+.artigo-titulo3>h1{
+    padding: 1px 0px;
+}
+.artigo-titulo3>p{
+    font-size: .9em;
+}
+
+.artigo-titulo3>h1>a{
+    text-decoration: none;
+    color: var(--cor-1);
+}
+.artigo3>.artigo-conteudo3{
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    border-radius: 20px;
+}
+
+.artigo-conteudo3:hover{
+    width: 600px;
+    overflow: hidden;
+    transition: .7s;
+}
+
+/* FINAL DE QUALQUER ARTIGO E/OU CONTEUDO*/
+
+@keyframes typing{
+    from{
+        width: 0ch;
+    }
+}
+
+@keyframes blinking{
+    50%{
+        border-color: transparent;
+    }
+}
